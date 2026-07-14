@@ -81,10 +81,7 @@ export default function AboutPage() {
                 href={`/category/${c.slug}`}
                 className="group flex flex-col items-start gap-2 border border-line bg-white p-4 transition-colors hover:border-brand"
               >
-                <Icon
-                  className="h-6 w-6 text-brand"
-                  strokeWidth={1.5}
-                />
+<Icon className="h-6 w-6 text-brand" />
                 <span className="text-sm font-medium leading-tight group-hover:text-brandDark">
                   {c.label}
                 </span>
